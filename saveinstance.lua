@@ -3948,7 +3948,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 	end
 
 	do
-		local SafeMode = OPTIONS.SafeMode
+		local SafeMode = False
 		if SafeMode then
 			task.spawn(function()
 				local LocalPlayer = GetLocalPlayer()
